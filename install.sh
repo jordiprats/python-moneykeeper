@@ -13,6 +13,7 @@ then
 fi
 
 sudo cp ./moneykeeper.py /usr/local/bin/moneykeeper
+sudo chmod +x /usr/local/bin/moneykeeper
 
 if [ -d ~/.config/autostart ];
 then
