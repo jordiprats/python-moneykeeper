@@ -8,7 +8,7 @@ fi
 
 if [ "$(id -u)" -eq 0 ];
 then
-    echo "please execute do not run as root"
+    echo "please execute do NOT run as root"
     exit 1
 fi
 
